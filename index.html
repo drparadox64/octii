@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<head>
+    <title>octii</title>
+    <style>
+        @font-face { font-family: DOSVGA; src: url('dosvga.ttf'); }
+        body {
+            margin-bottom: 10%;
+            background-color: #000000;
+            color: #00FF00;
+        
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            filter: none;
+            font-family: DOSVGA;
+        }
+        
+        p {
+            font-weight: normal;
+            filter: none;
+            font-size: 16px;
+            margin: 0 0 10px 0;
+            color: #00FF00;
+        }
+        
+        #gamelogo {
+            display: block;
+            margin: 20px auto;
+        }
+        
+        #gamecontainer {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            gap: 20px;
+            border-width: 4px;
+            border-style: solid;
+            border-color: #FFFFFF;
+        }
+        
+        #hud {
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+        }
+        
+        #keydisp img {
+            margin: 2px;
+        }
+        
+        .invisible {
+            visibility: hidden;
+        }
+        
+        .visible {
+            visibility: visible;
+        }
+        #help {
+            width: 220px;
+            max-width: 220px;
+            white-space: normal;
+            overflow-wrap: break-word;
+        }
+        hr {
+            width: 450px;
+        }
+    </style>
+</head>
+<body>
+    <img id="gamelogo" src="gr/gamelogo.png">
+    <div id="gamecontainer">
+        <canvas id="gamecanvas" width="576" height="576"></canvas>
+        <div id="hud">
+            <p id="name"></p>
+            <p id="chips"></p>
+            <div id="keydisp">
+            <hr>
+            <p id="help"></p>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="nh.js"></script>
+    <br>
+    <br>
+    <br>
+    <p>
+        FAQ:
+    </p>
+    <br>
+    <br>
+    <p>
+        ? The @#*! does "OCTII" mean?
+        <br>
+        > Absolutely nothing, it sounds cool.
+        <br>
+        <br>
+        ? What even is this?
+        <br>
+        > This is my attempt at a Chip's Challenge style game. It's still in VERY early development, but it is about 10% finished.
+        <br>
+    </p>
+    <br>
+    <br>
+    <br>
+    <p>
+        Credits:
+        <br>
+        <br>
+        > The Bit Busters discord server for helping with some timing info.<br>
+        > Cammymoop for massively inspiring the art style for the game (you can find his games <a href="https://cammymoop.itch.io">here!</a>).<br>
+        > MDN for being a great reference for the JS canvas.<br>
+        > The <a href="https://wiki.bitbusters.club">Bit Busters wiki</a> for having lots of info on how Chip's Challenge works.<br>
+        > Chuck Sommerville for creating the original Chip's Challenge.<br>
+    </p>
+</body>
