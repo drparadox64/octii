@@ -42,7 +42,7 @@ export const ASSET_NAMES = [
     "gr/powerups/watersh.svg",
     "gr/powerups/forcesh.svg",
     "gr/powerups/icesh.svg",
-    "gr/gravel"
+    "gr/gravel.svg"
 ]
 export const MONSTER_BLOCK_TILES = [
     1,
