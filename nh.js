@@ -4,7 +4,7 @@ BY DRPARADOX64, BRINGER OF DOOM!
 */
 // Constants & canvas setup
 
-const PATH = "https://cdn.jsdelivr.net/gh/drparadox64/octii@ea1d780caa00f15b5da170f88140679ddd3b579e/"
+const PATH = "https://cdn.jsdelivr.net/gh/drparadox64/octii@main/"
 import {
     TILE_SIZE,
     MAP_SIZE,
@@ -22,8 +22,8 @@ import {
     KEY_NAMES,
     POWERUPS,
     POWERUP_NAMES
-} from "https://cdn.jsdelivr.net/gh/drparadox64/octii@ea1d780caa00f15b5da170f88140679ddd3b579e/data.js"
-import { tmx2map, mapmeta } from "https://cdn.jsdelivr.net/gh/drparadox64/octii@ea1d780caa00f15b5da170f88140679ddd3b579e/tmx2map.js";
+} from "https://cdn.jsdelivr.net/gh/drparadox64/octii@main/data.js"
+import { tmx2map, mapmeta } from "https://cdn.jsdelivr.net/gh/drparadox64/octii@main/txt2map.js";
 
 const GameCanvas = document.getElementById("gamecanvas");
 const ctx = GameCanvas.getContext("2d");
