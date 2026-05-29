@@ -4,7 +4,7 @@ BY DRPARADOX64, BRINGER OF DOOM!
 */
 // Constants & canvas setup
 
-const PATH = "https://cdn.jsdelivr.net/gh/drparadox64/octii@latest/"
+const PATH = "https://cdn.jsdelivr.net/gh/drparadox64/octii@commit-hash/"
 import {
     TILE_SIZE,
     MAP_SIZE,
