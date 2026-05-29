@@ -1,0 +1,12 @@
+<svg width="32" height="32" xmlns="http://www.w3.org/2000/svg">
+<title>Layer 1</title>
+<rect stroke-width="4" stroke="#b2b2b2" id="svg_1" height="31.55556" width="32" y="0" x="0" fill="#cccccc"/>
+<rect id="trace_1" height="2" width="24" x="4" y="6" fill="#FFFF00"/>
+<rect id="trace_1" height="2" width="24" x="4" y="10" fill="#FFFF00"/>
+<rect id="trace_1" height="2" width="24" x="4" y="14" fill="#FFFF00"/>
+<rect id="trace_1" height="2" width="24" x="4" y="18" fill="#FFFF00"/>
+<rect id="trace_1" height="2" width="24" x="4" y="22" fill="#FFFF00"/>
+<rect id="svg_1" height="24" width="16" x="8" y="4" fill="#414141" stroke="#212121" stroke-width="2"/>
+<text id="chiptext" x="8" y="-14" font-size="6" font-family="consolas" fill="#FFFFFF" transform="rotate(90)">OCTII</text>
+
+</svg>

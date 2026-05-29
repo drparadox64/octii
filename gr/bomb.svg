@@ -1,0 +1,10 @@
+<svg width="32" height="32" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>Layer 1</title>
+  <rect stroke-width="4" stroke="#b2b2b2" id="svg_1" height="32" width="32" y="0" x="0" fill="#cccccc"/>
+  <rect height="6" width="4" x="14" y="5" stroke-width="2" stroke="#444444" fill="#777777"/>    
+  <ellipse ry="9" rx="9" id="svg_7" cx="16" cy="18" stroke-width="2" stroke="#A10000" fill="#DD0000"/>
+  
+  <path id="svg_2" d="m14.88,13.2" opacity="NaN" stroke="#b2b2b2" fill="#cccccc"/>
+ </g>
+</svg>
