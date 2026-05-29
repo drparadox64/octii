@@ -3,6 +3,8 @@
 BY DRPARADOX64, BRINGER OF DOOM!
 */
 // Constants & canvas setup
+
+const PATH = ""
 import {
     TILE_SIZE,
     MAP_SIZE,
@@ -20,8 +22,8 @@ import {
     KEY_NAMES,
     POWERUPS,
     POWERUP_NAMES
-} from "./data.js"
-import { tmx2map, mapmeta } from "./tmx2map.js";
+} from PATH + "https://cdn.jsdelivr.net/gh/drparadox64/octii@ea1d780caa00f15b5da170f88140679ddd3b579e/data.js"
+import { tmx2map, mapmeta } from PATH + "https://cdn.jsdelivr.net/gh/drparadox64/octii@ea1d780caa00f15b5da170f88140679ddd3b579e/tmx2map.js";
 
 const GameCanvas = document.getElementById("gamecanvas");
 const ctx = GameCanvas.getContext("2d");
@@ -57,7 +59,7 @@ function pushHint(hinttext) {
 function compileAssets() {
     ASSET_NAMES.forEach(element => {
         let img = new Image();
-        img.src = element;
+        img.src = PATH + element;
         ASSETS.push(img);
     });
 }
