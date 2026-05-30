@@ -1,7 +1,7 @@
-import { MAP_SIZE } from "https://cdn.jsdelivr.net/gh/drparadox64/octii@main/data.js";
+import { MAP_SIZE } from "/data.js";
 
 export async function tmx2map(fn) {
-    const xmlfile = await fetch("https://drparadox.neocities.org/octii/maps/"+fn+".tmx");
+    const xmlfile = await fetch("/maps/"+fn+".tmx");
     const text = await xmlfile.text();
     const xmlparser = new DOMParser();
     const doc = xmlparser.parseFromString(text, "text/xml");
@@ -25,7 +25,7 @@ export async function tmx2map(fn) {
 }
 
 export async function mapmeta(fn) {
-    const xmlfile = await fetch("https://drparadox.neocities.org/octii/maps/" + fn + ".tmx");
+    const xmlfile = await fetch("/maps/" + fn + ".tmx");
     const text = await xmlfile.text();
 
     const xmlparser = new DOMParser();

@@ -22,8 +22,8 @@ import {
     KEY_NAMES,
     POWERUPS,
     POWERUP_NAMES
-} from "https://cdn.jsdelivr.net/gh/drparadox64/octii@master/data.js"
-import { tmx2map, mapmeta } from "/https://cdn.jsdelivr.net/gh/drparadox64/octii@master/tmx2map.js";
+} from "/data.js"
+import { tmx2map, mapmeta } from "/tmx2map.js";
 
 const GameCanvas = document.getElementById("gamecanvas");
 const ctx = GameCanvas.getContext("2d");
