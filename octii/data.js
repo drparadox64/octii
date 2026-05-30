@@ -42,7 +42,8 @@ export const ASSET_NAMES = [
     "gr/powerups/watersh.svg",
     "gr/powerups/forcesh.svg",
     "gr/powerups/icesh.svg",
-    "gr/gravel.svg"
+    "gr/gravel.svg",
+    "gr/tank.svg"
 ]
 export const MONSTER_BLOCK_TILES = [
     1,
@@ -119,5 +120,9 @@ export const ENTITY_INFO = {
     11: {
         rotate: false,
         name: "box"
+    },
+    32: {
+        rotate: true,
+        name: "tank"
     }
 }

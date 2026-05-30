@@ -460,7 +460,7 @@ async function loadMap(gamemapname) {
 let player = new Entity(2, 1, 1, 0, 2);
 async function init() {
     compileAssets();
-    await loadMap("octii_basics/lesson1")
+    await loadMap("octii_basics/lesson3")
     for (let i = 0; i < KEYS.length; i++) {
         let kdelement = document.createElement("img");
         kdelement.className = "invisible";
