@@ -22,7 +22,7 @@ import {
     KEY_NAMES,
     POWERUPS,
     POWERUP_NAMES
-} from "https://cdn.jsdelivr.net/gh/drparadox64/octii@main/data.js"
+} from "https://cdn.jsdelivr.net/gh/drparadox64/octii@master/data.js"
 import { tmx2map, mapmeta } from "/";
 
 const GameCanvas = document.getElementById("gamecanvas");
