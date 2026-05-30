@@ -22,8 +22,8 @@ import {
     KEY_NAMES,
     POWERUPS,
     POWERUP_NAMES
-} from "/data.js"
-import { tmx2map, mapmeta } from "/tmx2map.js";
+} from "./data.js"
+import { tmx2map, mapmeta } from "./tmx2map.js";
 
 const GameCanvas = document.getElementById("gamecanvas");
 const ctx = GameCanvas.getContext("2d");

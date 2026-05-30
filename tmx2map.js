@@ -1,4 +1,4 @@
-import { MAP_SIZE } from "/data.js";
+import { MAP_SIZE } from "data.js";
 
 export async function tmx2map(fn) {
     const xmlfile = await fetch("/maps/"+fn+".tmx");
